@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paul Framework</title>
+  <link rel="stylesheet" href="css/paul-reset.css">
+  <link rel="stylesheet" href="css/paul.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <section id="principal" class="bg-gradient-purple p_1 abs section-main">
+
+    <section class="border-r_5  bg-white  section-second  abs  main  visibility" id="main">
+      <h1 class="txt-center  p_2">¡Hola Mi Hermosa!😍</h1>
+      <p class="txt-center  p_1">Esto no es mucho, pero lo hice con muchisisimo <b>Amor</b> para tí!</p>
+      <div id="corazon"><img src="https://drive.google.com/file/d/1cXlOJSJBPqX5rbjBZnagdsdJgmqlV0XR/view?usp=drivesdk" alt=""></div>
+    </section>
+
+    <section class="border-r_5  bg-white  section-second  abs  why  hidden" id="why">
+      <h1 class="txt-center  fs-2 p_2">Sabes Por qué Te Amo?💖</h1>
+      <p class="txt-center p_1">Principalmente porque eres la niña <b>PERFECTA</b>
+      <br><br>Es que, como no amarte si tu eres una niña tan <b>GRANDIOSA</b>. <br><br> Eres la niña de mis ojos👀💖. Desde el dia en que te conocí me <b>encantaste</b>, me <b>fascinaste</b><br><br>Mi Amor, te amo por el siemple hecho de que existes, tu presencia en esta Tierra cada día la hace mas bonita💖 además, haces de mis dias los mas felices al tenerte, me apoyas siempre, en todo lo que hago, nunca me dejas, al contrario, me animas y me haces seguir adelante, es que me has ayudado en tanto que si sigues asi no tendré con que pagarte, ni aunque me haga el hombre mas rico de la Tierra, o <b>Aceptas Besos?</b><br><br>Gracias Por amarme como lo haces, <b>TE AMO DEMASIADO PANDITA</b></p>
+    </section>
+
+    <section class="border-r_5  bg-white  section-second  abs  gallery  hidden" id="gallery">
+      <div class="photo-gallery"><img id="slider" src="images/img1.jpg"></div>
+      <div id="text-gallery" class="text-gallery"></div>
+      <div class="btn-gallery" id="btn-gallery">
+        <button id="prev-btn" class="btn-circle" type="button" onclick="prev()"><img src="images/arrow-left.svg"></button>
+        <button id="next-btn" class="btn-circle" type="button" onclick="next()"><img src="images/arrow-right.svg"></button>
+      </div>
+    </section>
+
+    <section class="border-r_5  bg-white  section-second  abs  heart  hidden" id="heart">
+      <h1 class="txt-center  fs-2 p_2">Corazon💖</h1>
+    </section>
+    
+    <div id="btn-container" class=" btn-container  fix first">
+      <button id="heart-btn" class="heart-btn  btn-circle  bg-gradient-purple abs" type="button"><img src="images/heartbtn.svg"></button>
+      <button id="gallery-btn" class="gallery-btn  btn-circle  bg-gradient-purple abs" type="button"><img src="images/camera.svg"></button>
+      <button id="why-btn" class="why-btn  btn-circle  bg-gradient-purple abs" type="button"><img src="images/help-circle.svg"></button>
+      <button id="home-btn" class="home-btn  btn-circle  bg-gradient-purple abs" type="button"><img src="images/home.svg"></button>
+      <button id="main-btn" class="main-btn  btn-circle  bg-gradient-purple abs" type="button"><img src="images/plus.svg"></button>
+    </div>
+    
+  </section>
+    <script src="js/paul.js"></script>
+  </body>
+  
+  </html>
